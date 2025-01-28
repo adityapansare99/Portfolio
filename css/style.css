@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    text-align: center;
+}
+
+.header button{
+    display: inline;
+}
+
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+.main h1{
+    margin: 15rem 0rem;
+    text-align: center;
+}
+
+.main .div1{
+    display: flex;
+    width: 100%;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.img{
+    width: 25rem;
+    height: 20rem;
+    border-radius: 10px;
+    margin: 0.9rem;
+    padding: 0.2rem;
+    margin-left: 15rem;
+}
+
+.div1 .div2{
+    margin: 0.9rem;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 20rem;
+}
+
+.footer{
+    margin-top: 10rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.footer ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+.footer img{
+    height: 5px;
+    width: 5px;
+}
+
+.footer p{
+    margin:0rem 2.5rem;
+}
