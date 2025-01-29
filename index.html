@@ -3,233 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      /* Reset */
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-
-      /* Body */
-      body {
-        font-family: "Poppins", sans-serif;
-        color: white;
-        background-color: #0f172a;
-        line-height: 1.6;
-      }
-
-      /* Header */
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.5rem 3rem;
-        background-color: #1e293b;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      .header ul {
-        list-style-type: none;
-        display: flex;
-        gap: 1.5rem;
-      }
-
-      .header a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 600;
-        transition: color 0.3s;
-      }
-
-      .header a:hover {
-        color: #38bdf8;
-      }
-
-      .header button {
-        background-color: #2563eb;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        cursor: pointer;
-        border: none;
-      }
-
-      /* Main Section */
-      .main {
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .carousel {
-        display: flex;
-        width: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        animation: slide 15s infinite linear;
-      }
-
-      .carousel img {
-        width: 100%;
-        max-height: 500px;
-        object-fit: cover;
-      }
-
-      @keyframes slide {
-        0% {
-          transform: translateX(0);
-        }
-        20% {
-          transform: translateX(0);
-        }
-        25% {
-          transform: translateX(-100%);
-        }
-        45% {
-          transform: translateX(-100%);
-        }
-        50% {
-          transform: translateX(-200%);
-        }
-        70% {
-          transform: translateX(-200%);
-        }
-        75% {
-          transform: translateX(-300%);
-        }
-        95% {
-          transform: translateX(-300%);
-        }
-        100% {
-          transform: translateX(-400%);
-        }
-      }
-
-      .main h1 {
-        margin-top: 6rem;
-        font-size: 3rem;
-        font-weight: bold;
-        color: #38bdf8;
-        position: relative;
-        z-index: 1;
-      }
-
-      .div1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        padding: 2rem;
-      }
-
-      .img {
-        width: 25rem;
-        height: 20rem;
-        border-radius: 15px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s;
-      }
-
-      .img:hover {
-        transform: scale(1.05);
-      }
-
-      .div2 {
-        background: #1e293b;
-        padding: 1.5rem;
-        border-radius: 10px;
-        max-width: 500px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      }
-
-      /* Footer */
-      .footer {
-        margin-top: 5rem;
-        padding: 2rem;
-        background-color: #1e293b;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      .footer ul {
-        list-style: none;
-        display: flex;
-        gap: 1rem;
-      }
-
-      .footer a {
-        text-decoration: none;
-        color: #38bdf8;
-        transition: color 0.3s;
-      }
-
-      .footer a:hover {
-        color: #fbbf24;
-      }
-
-      .footer p {
-        font-size: 1rem;
-      }
-    </style>
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
-  <body>
+  <body class="light-theme">
+    <!-- Header Section -->
     <header class="header">
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">About me</a></li>
+        <li><a href="index.html ">Home</a></li>
         <li><a href="#">Projects</a></li>
-        <li><a href="./html/achivements.html">Achievments</a></li>
-        <li><a href="#">Resume</a></li>
+        <li><a href="./html/achivements.html">Achievements</a></li>
+        <li><a href="/assets/resume 10-2024 (1).pdf">Resume</a></li>
       </ul>
-      <button><img src="" alt="change button" /></button>
     </header>
+
+    <!-- Main Section -->
     <main class="main">
       <h1>Welcome To Aditya's Portfolio</h1>
       <div class="div1">
         <div class="div2">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-            aperiam esse architecto facere voluptatum fugit maxime, tenetur
-            voluptatibus cum consequuntur vero debitis aut natus iure libero.
-            Iusto repellat eius eligendi.
+            Currently pursuing a second year in Computer Science and Engineering
+            at Walchand College of Engineering, Sangli. Actively involved in
+            technical communities, working as an Event Manager at WCE ACM, a
+            Revenue Manager at WCE CodeChef, and a Coding Coordinator at WCE
+            MLSC. Passionate about competitive programming and problem-solving,
+            with a strong focus on optimizing algorithms and improving coding
+            skills. Interested in software development and algorithmic
+            challenges, always looking for opportunities to refine technical
+            expertise and contribute to the tech community.
           </p>
         </div>
-
         <div class="div3">
           <img
             class="img"
             src="./assets/IMG-20241101-WA0010.jpg"
-            alt="my img"
+            alt="My Image"
           />
         </div>
       </div>
     </main>
 
+    <!-- Footer Section -->
     <footer class="footer">
       <ul>
         <li>
-          <a href=""><img src="" alt="test" /></a>
+          <a href="https://www.linkedin.com/in/aditya-pansare-41a621320/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </li>
         <li>
-          <a href=""><img src="" alt="test" /></a>
+          <a href="https://www.instagram.com/a_d_i_t_y_a_9_/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </li>
         <li>
-          <a href=""><img src="" alt="test" /></a>
+          <a href="pansareaditya281@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
         </li>
         <li>
-          <a href=""><img src="" alt="test" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="test" /></a>
+          <a href="tel:+91 9075689459"
+            ><i class="fas fa-phone"></i
+          ></a>
         </li>
       </ul>
-      <p>Term of use</p>
-      <p>copyright</p>
+      <p>Copyright © 2025</p>
     </footer>
   </body>
 </html>
